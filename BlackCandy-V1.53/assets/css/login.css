@@ -1,0 +1,111 @@
+body {
+    background: url("../images/login_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-position: center center;
+        background-size: auto;
+    }
+}
+
+#login #owl-login {
+    position: absolute;
+    left: 50%;
+    margin-left: -111px;
+    background-image: url("../images/owl_login.png");
+    height: 108px;
+    width: 211px;
+    margin-top: -79px;
+}
+#login #owl-login .hand {
+    width: 34px;
+    height: 34px;
+    border-radius: 40px;
+    background-color: #472D20;
+    transform: scaleY(0.6);
+    transition: all 0.3s ease-out 0s;
+    position: absolute;
+    left: 14px;
+    bottom: -8px;
+}
+
+#login #owl-login .hand.hand-r {
+    left: 170px;
+}
+#login #owl-login .hand {
+    width: 34px;
+    height: 34px;
+    border-radius: 40px;
+    background-color: #472D20;
+    transform: scaleY(0.6);
+    transition: all 0.3s ease-out 0s;
+    position: absolute;
+    left: 14px;
+    bottom: -8px;
+}
+#login #owl-login .arms {
+    top: 58px;
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    overflow: hidden;
+}
+#login #owl-login.password .hand{
+    -webkit-transform: translateX(42px) translateY(-15px) scale(0.7);
+    -moz-transform: translateX(42px) translateY(-15px) scale(0.7);
+    -o-transform: translateX(42px) translateY(-15px) scale(0.7);
+    -ms-transform: translateX(42px) translateY(-15px) scale(0.7);
+    transform: translateX(42px) translateY(-15px) scale(0.7);
+}
+#login #owl-login.password .hand.hand-r {
+    -webkit-transform: translateX(-42px) translateY(-15px) scale(0.7);
+    -moz-transform: translateX(-42px) translateY(-15px) scale(0.7);
+    -o-transform: translateX(-42px) translateY(-15px) scale(0.7);
+    -ms-transform: translateX(-42px) translateY(-15px) scale(0.7);
+    transform: translateX(-42px) translateY(-15px) scale(0.7);
+}
+#login #owl-login .arms .arm{
+    width: 40px;
+    height: 65px;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    background-image: url("../images/owl_login_arm.png");
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    -ms-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+#login #owl-login .arms .arm.arm-r {
+    -webkit-transform: rotate(20deg) scaleX(-1);
+    -moz-transform: rotate(20deg) scaleX(-1);
+    -o-transform: rotate(20deg) scaleX(-1);
+    -ms-transform: rotate(20deg) scaleX(-1);
+    transform: rotate(20deg) scaleX(-1);
+    left: 158px;
+}
+#login #owl-login.password .arms .arm{
+    -webkit-transform: translateY(-40px) translateX(40px);
+    -moz-transform: translateY(-40px) translateX(40px);
+    -o-transform: translateY(-40px) translateX(40px);
+    -ms-transform: translateY(-40px) translateX(40px);
+    transform: translateY(-40px) translateX(40px);
+}
+#login #owl-login.password .arms .arm.arm-r{
+    -webkit-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+    -moz-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+    -o-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+    -ms-transform: translateY(-40px) translateX(-40px) scaleX(-1);
+    transform: translateY(-40px) translateX(-40px) scaleX(-1);
+}
+#login_error, .login .message {
+    margin-top: 20px;
+}

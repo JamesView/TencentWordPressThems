@@ -1,0 +1,120 @@
+/*
+Theme Name: BlackCandy
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Caption
+ * 6.0 - Galleries
+ * 7.0 - Media Elements
+ * 8.0 - RTL
+ */
+
+/**
+ * 1.0 - Body
+ */
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}
+code{
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 0.9375rem;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-title {
+    padding: 6px 12px;
+    font-size: 15px;
+}
+.panel-content {
+    padding: 12px;
+    font-size: 15px;
+}
+.panel-warning {
+    border-color: #faebcc;
+}
+.panel-warning .panel-title {
+    background-color: #fcf8e3;
+    border-bottom: 1px solid #faebcc;
+    color: #8a6d3b;
+}
+.panel-forbid {
+    border-color: #ebccd1;
+}
+.panel-forbid .panel-title {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.panel-notice {
+    border-color: #337ab7;
+}
+.panel-notice .panel-title {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.panel-geek {
+    border-color: #111;
+}
+.panel-geek .panel-title {
+    color: #fff;
+    background-color: #222;
+    border-color: #111;
+}
+.btn {
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn-geek {
+    background-color: #222;
+    border-color: #111;
+}
+.btn-notice {
+    background: #38B7EA;
+    border: 1px solid #33ACDC;
+}
+.btn-forbid {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.btn-warning {
+    background-color: #ec971f;
+    border-color: #d58512;
+}
+a {
+    color: #38B7EA;
+    text-decoration: none;
+}
+
+
